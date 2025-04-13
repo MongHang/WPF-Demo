@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F40E1218-9620-4309-8456-1C04484123A0}|CourseSystemApp\\CourseSystemApp.csproj|d:\\users\\daniel\\desktop\\c#_demo\\coursesystemapp\\coursesystemapp\\courseschedulefunpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F40E1218-9620-4309-8456-1C04484123A0}|CourseSystemApp\\CourseSystemApp.csproj|solutionrelative:coursesystemapp\\courseschedulefunpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF53142-51E0-4DF1-AC7D-622373A0113D}|CourseLibrary\\CourseLibrary.csproj|D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\courselibrary\\repostiory\\studentschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF53142-51E0-4DF1-AC7D-622373A0113D}|CourseLibrary\\CourseLibrary.csproj|solutionrelative:courselibrary\\repostiory\\studentschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF53142-51E0-4DF1-AC7D-622373A0113D}|CourseLibrary\\CourseLibrary.csproj|D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\courselibrary\\repostiory\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF53142-51E0-4DF1-AC7D-622373A0113D}|CourseLibrary\\CourseLibrary.csproj|solutionrelative:courselibrary\\repostiory\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF53142-51E0-4DF1-AC7D-622373A0113D}|CourseLibrary\\CourseLibrary.csproj|D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\courselibrary\\repostiory\\courseschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF53142-51E0-4DF1-AC7D-622373A0113D}|CourseLibrary\\CourseLibrary.csproj|solutionrelative:courselibrary\\repostiory\\courseschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 93,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseScheduleRepository.cs",
+              "DocumentMoniker": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\CourseLibrary\\Repostiory\\CourseScheduleRepository.cs",
+              "RelativeDocumentMoniker": "CourseLibrary\\Repostiory\\CourseScheduleRepository.cs",
+              "ToolTip": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\CourseLibrary\\Repostiory\\CourseScheduleRepository.cs",
+              "RelativeToolTip": "CourseLibrary\\Repostiory\\CourseScheduleRepository.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAuwJcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:01:50.92Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseScheduleFunPage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\CourseSystemApp\\CourseScheduleFunPage.xaml.cs",
+              "RelativeDocumentMoniker": "CourseSystemApp\\CourseScheduleFunPage.xaml.cs",
+              "ToolTip": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\CourseSystemApp\\CourseScheduleFunPage.xaml.cs",
+              "RelativeToolTip": "CourseSystemApp\\CourseScheduleFunPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T07:59:06.529Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentScheduleRepository.cs",
+              "DocumentMoniker": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\CourseLibrary\\Repostiory\\StudentScheduleRepository.cs",
+              "RelativeDocumentMoniker": "CourseLibrary\\Repostiory\\StudentScheduleRepository.cs",
+              "ToolTip": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\CourseLibrary\\Repostiory\\StudentScheduleRepository.cs",
+              "RelativeToolTip": "CourseLibrary\\Repostiory\\StudentScheduleRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvwoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:33:34.489Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminUserRepository.cs",
+              "DocumentMoniker": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\CourseLibrary\\Repostiory\\AdminUserRepository.cs",
+              "RelativeDocumentMoniker": "CourseLibrary\\Repostiory\\AdminUserRepository.cs",
+              "ToolTip": "D:\\Users\\Daniel\\Desktop\\C#_Demo\\CourseSystemApp\\CourseLibrary\\Repostiory\\AdminUserRepository.cs",
+              "RelativeToolTip": "CourseLibrary\\Repostiory\\AdminUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:34:04.977Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

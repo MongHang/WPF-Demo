@@ -1,0 +1,100 @@
+﻿<Window x:Class="CourseSystemApp.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseSystemApp"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="MenuWindow">
+    <Window.Resources>
+        <!-- 功能按鈕樣式 -->
+        <Style x:Key="MenuButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="Margin" Value="0,2"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="15,0,0,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+
+        <!-- 選中功能按鈕樣式 -->
+        <Style x:Key="SelectedMenuButtonStyle" TargetType="Button" 
+               BasedOn="{StaticResource MenuButtonStyle}">
+            <Setter Property="Background" Value="#3e5c9a"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- 左側功能選單導航 -->
+        <Grid Background="#2c3e50">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- 功能選單 -->
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <!-- 管理員資料管理 -->
+                    <Button Content="管理員資料管理" Style="{StaticResource MenuButtonStyle}"
+                            x:Name="btnAdmin" Click="btnAdmin_Click"/>
+
+                    <!-- 學員資料管理 -->
+                    <Button Content="學員資料管理" Style="{StaticResource MenuButtonStyle}"
+                            x:Name="btnUserManagement" Click="btnUserManagement_Click"/>
+
+                    <!-- 講師資料管理 -->
+                    <Button Content="講師資料管理" Style="{StaticResource MenuButtonStyle}"
+                            x:Name="btnTeacherManagement" Click="btnTeacherManagement_Click"/>
+
+                    <!-- 課程資料管理 -->
+                    <Button Content="課程資料管理" Style="{StaticResource MenuButtonStyle}"
+                            x:Name="btnCourseManagement" Click="btnCourseManagement_Click"/>
+
+                    <!-- 開課資料管理 -->
+                    <Button Content="開課資料管理" Style="{StaticResource MenuButtonStyle}"
+                            x:Name="btnCourseScheduleManagement" Click="btnCourseScheduleManagement_Click"/>
+
+                    <!-- 變更密碼 -->
+                    <Button Content="變更密碼" Style="{StaticResource MenuButtonStyle}"
+                            x:Name="btnResetPassWord" Click="btnResetPassWord_Click"/>
+                </StackPanel>
+            </ScrollViewer>
+
+            <!-- 登入者資訊 -->
+            <Border Grid.Row="0" BorderThickness="0,1,0,0" BorderBrush="#3e5c9a" Padding="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" Margin="10,0,0,0" VerticalAlignment="Center">
+                        <TextBlock x:Name="txtUserName" Text="王小明" Foreground="White" FontWeight="Bold"/>
+                    </StackPanel>
+
+                    <Button x:Name="btnLogOut" Grid.Column="1" ToolTip="登出系統" Cursor="Hand" Content="登出" Foreground="White"
+                            Background="Transparent" BorderThickness="0" Click="btnLogOut_Click">
+                    </Button>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- 右側內容區域 -->
+        <Grid Grid.Column="1" Background="#f5f5f5">
+            <!-- 頁面容器 -->
+            <Frame Grid.Row="1" x:Name="funsFrame" NavigationUIVisibility="Hidden"
+                  Background="#f5f5f5" Margin="20,15"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,8 @@
+F:\dotNet\online2024\CourseSystemApp\CourseLibrary\bin\Debug\CourseLibrary.dll
+F:\dotNet\online2024\CourseSystemApp\CourseLibrary\bin\Debug\CourseLibrary.pdb
+F:\dotNet\online2024\CourseSystemApp\CourseLibrary\obj\Debug\CourseLibrary.csproj.AssemblyReference.cache
+F:\dotNet\online2024\CourseSystemApp\CourseLibrary\obj\Debug\CourseLibrary.csproj.CoreCompileInputs.cache
+F:\dotNet\online2024\CourseSystemApp\CourseLibrary\obj\Debug\CourseLibrary.dll
+F:\dotNet\online2024\CourseSystemApp\CourseLibrary\obj\Debug\CourseLibrary.pdb
+D:\Users\Daniel\Desktop\C#_Demo\CourseSystemApp\CourseLibrary\obj\Debug\CourseLibrary.dll
+D:\Users\Daniel\Desktop\C#_Demo\CourseSystemApp\CourseLibrary\obj\Debug\CourseLibrary.pdb
