@@ -80,7 +80,7 @@
                     </Grid.ColumnDefinitions>
 
                     <StackPanel Grid.Column="0" Margin="10,0,0,0" VerticalAlignment="Center">
-                        <TextBlock x:Name="txtUserName" Text="王小明" Foreground="White" FontWeight="Bold"/>
+                        <TextBlock x:Name="txtUserName" Text="Test Name (Temp)" Foreground="White" FontWeight="Bold"/>
                     </StackPanel>
 
                     <Button x:Name="btnLogOut" Grid.Column="1" ToolTip="登出系統" Cursor="Hand" Content="登出" Foreground="White"
