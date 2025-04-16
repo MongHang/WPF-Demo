@@ -1,1 +1,3 @@
-WPF-Demo
+# WPF-Demo
+
+App.config setting
